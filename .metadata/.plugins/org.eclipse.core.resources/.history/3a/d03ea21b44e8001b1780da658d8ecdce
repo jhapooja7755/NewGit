@@ -1,0 +1,32 @@
+package pooja;
+
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		int l=100,h=200;
+		int sum=0;
+		int i;
+		//int temp=i;
+		int r;
+		for(i=l+1;i<h;i++)
+		{
+		while(i>0)
+		{
+			r=i%10;
+			sum=sum+r*r*r;
+			i=i/10;
+			
+		}
+		if(i==sum)
+		{
+			System.out.println(i);
+		}
+		else
+		{
+			System.out.println("not armstrong");
+		}
+
+	}
+
+}
+}

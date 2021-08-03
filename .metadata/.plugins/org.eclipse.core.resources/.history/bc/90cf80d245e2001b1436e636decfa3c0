@@ -1,0 +1,25 @@
+package pooja;
+
+import java.util.Arrays;
+
+public class BinarySearch {
+
+	public static void main(String[] args) {
+		
+		int arr[] = {8,9,22,1,2,3,4,5};
+		boolean flag=false;
+		int key=22;
+		Arrays.sort(arr);
+		int i= Arrays.binarySearch(arr, key);
+		if(flag==true)
+		{
+			System.out.println(i);
+		}
+		else
+		{
+			System.out.println("not found");
+		}
+
+	}
+
+}

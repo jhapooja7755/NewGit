@@ -1,0 +1,41 @@
+package pooja;
+
+public class abcd {
+
+	static int a=40;
+	static int b=30;
+	int temp;
+	
+	public int gcd(int a,int b)
+	{
+		
+		
+		temp=b;
+		a=b%a;
+		a=temp;
+		System.out.println(a);
+		return b;
+		
+		
+		
+		
+	}
+	
+	
+	
+	public int lcm(int a,int b)
+	{
+		System.out.println(a);
+		System.out.println(b);
+		return (a/gcd(a,b))*b;
+	}
+	public static void main(String[] args) {
+		abcd ax=new abcd();
+		int x=ax.lcm(a,b);
+		System.out.println(x);
+		
+	
+	
+
+}
+}

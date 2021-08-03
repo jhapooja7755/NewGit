@@ -1,0 +1,32 @@
+package pooja;
+
+public class MaximumIndex {
+
+	public static void main(String[] args) {
+		int arr[] = {34, 8, 10, 3, 2, 80, 30, 33, 1};
+		int max_count = 0;
+		int i,j;
+		for(i=0;i<arr.length;i++)
+		{
+			
+			for(j=i+1;j<arr.length;j++)
+			{
+				if(arr[i]<=arr[j])
+				{
+					max_count++;
+				}
+				
+			}
+			if(max_count>=j)
+			{
+				System.out.println(j-i);
+			}
+			
+		}
+		
+
+		
+
+	}
+
+}

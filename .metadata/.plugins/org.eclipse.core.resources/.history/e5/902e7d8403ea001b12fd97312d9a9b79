@@ -1,0 +1,15 @@
+package pooja;
+
+import java.io.BufferedReader;
+import java.io.Reader;
+
+public class FileReader {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileReader fr= new FileReader("C:\\Users\\Administrator\\Desktop\\java\\remaining");
+		BufferedReader br = new BufferedReader(fr);
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package pooja;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class TestNg {
+
+	@Test
+	public void show() {
+		String a="pooja";
+		String b="pooja";
+		Assert.assertEquals(a, b);
+	}
+		@Test
+		public void test() {
+			int a=12;
+			int b=10;
+			Assert.assertTrue(a>b);
+		
+		
+	}
+	
+}

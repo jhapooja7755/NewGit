@@ -1,0 +1,26 @@
+package pooja;
+
+public class anagram {
+
+	public static void main(String[] args) {
+		String S1="abdc";
+		String S2 = "dbac";
+		char ch1[] = S1.toCharArray();
+		char ch2[] = S2.toCharArray();
+		for(int i=0;i<S1.length();i++)
+		{
+			ch1[i] = S1.charAt(i);
+			System.out.print(ch1[i]);
+		}
+		System.out.println();
+		for(int i=0;i<S2.length();i++)
+		{
+			ch2[i] = S2.charAt(i);
+			System.out.print(ch2[i]);
+		}
+		
+
+
+	}
+
+}

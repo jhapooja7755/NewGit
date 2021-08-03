@@ -1,0 +1,17 @@
+package pooja;
+
+public class mergeArrays {
+
+	public static void main(String[] args) {
+		public static void mergeArr(int a1[],int a2[],int n1,int n2,int a3[])
+		{
+			int i=0, j=0, k=0;
+			while(i<n1&&j<n2)
+			{
+				
+			}
+		}
+
+	}
+
+}

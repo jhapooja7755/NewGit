@@ -1,0 +1,19 @@
+package pooja;
+
+import java.util.Arrays;
+
+public class GetIndexString {
+
+	public static void main(String[] args) {
+		
+		String str = "i love my india";
+		char ch[] = str.toCharArray();
+		Arrays.sort(ch);
+		
+		
+			System.out.println(ch);
+			//break;
+		
+
+}
+}

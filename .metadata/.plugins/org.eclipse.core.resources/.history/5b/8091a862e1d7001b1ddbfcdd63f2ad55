@@ -1,0 +1,25 @@
+package pooja;
+
+public class abcd {
+
+	int a,b,temp;
+	public void gcd()
+	{
+	while(b!=0)
+	{
+		temp = b;
+		b=a%b;
+		a=temp;
+		
+	}
+	}
+		
+	
+	public static void main(String[] args) {
+		
+		
+	
+	
+
+}
+}

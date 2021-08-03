@@ -1,0 +1,26 @@
+package pooja;
+
+public class ProductArray {
+
+	public static void main(String[] args) {
+		int arr[] = {2,3,4,5,6};
+		//int arr1[] = new int[arr.length];
+		int i,j;
+		int product =1;
+		for(i=0;i<arr.length;i++)
+		{
+			
+			for(j=0;j<arr.length;j++)
+			{
+				product = (product*arr[j]);
+			
+			//arr[i]= product;
+		
+			}
+			
+
+	}
+		
+
+}
+}

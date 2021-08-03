@@ -1,0 +1,21 @@
+package pooja;
+
+public class RemoveLeadingZeroString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "000012356090";
+		StringBuffer sb=new StringBuffer();
+		//char[] ch=str.toCharArray();
+		int i;
+		for(i=0;i<str.length();i++)
+		{
+			
+			sb.replace(0, i, "");
+			
+		}
+		System.out.println(sb.toString());
+
+	}
+
+}

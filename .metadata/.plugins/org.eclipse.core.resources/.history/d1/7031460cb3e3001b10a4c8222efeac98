@@ -1,0 +1,21 @@
+package pooja;
+
+import java.util.Arrays;
+
+public class RemoveOccurrenceArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] array = { 3, 9, 2, 3, 1, 7, 2, 3, 5 };
+		int i,j=0;
+		int key=3;
+		for(i=0;i<array.length;i++)
+		if(array[i]!=key)
+			array[j++] = array[i];
+		System.out.println(Arrays.copyOf(array, j).toString());
+			
+		
+
+	}
+
+}

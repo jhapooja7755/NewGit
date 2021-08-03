@@ -1,0 +1,15 @@
+package pooja;
+
+public class GetIndexString {
+
+	public static void main(String[] args) {
+		
+		String str = "i love my india";
+		char ch[]=str.toCharArray();
+		for(int i=0;i<ch.length;i++)
+		{
+		System.out.print(ch);
+		}
+
+}
+}

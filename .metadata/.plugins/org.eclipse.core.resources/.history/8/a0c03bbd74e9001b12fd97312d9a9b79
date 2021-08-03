@@ -1,0 +1,33 @@
+package pooja;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class RemoveDuplicateLL {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> lt = new ArrayList<>();
+		List<Integer> lt1 = new ArrayList<>();
+		
+		lt.add(25);
+		lt.add(35);
+		lt.add(5);
+		lt.add(40);
+		lt.add(50);
+		lt.add(5);
+		lt.add(35);
+		for(int i=0;i<lt.size();i++)
+		{
+			if(!lt1.contains(lt))
+			{
+				lt1.add(i);
+			}
+			
+		}
+		System.out.println(lt1);
+		
+
+	}
+
+}

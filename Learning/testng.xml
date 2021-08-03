@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+ <run>
+ <include name = "demo.*"/>
+ 
+ </run>
+ 
+ </groups>
+
+ <parameter name="x1" value="5"/>
+  <parameter name="x2" value="7"/>
+  <test thread-count="5" name="Test">
+ 
+    <classes>
+    
+      <class name="pooja.SeleniumTestng"/>
+      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

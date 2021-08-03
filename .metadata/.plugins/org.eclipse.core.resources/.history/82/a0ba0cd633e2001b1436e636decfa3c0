@@ -1,0 +1,11 @@
+package pooja;
+
+public class Neon {
+
+	public static void main(String[] args) {
+		int n= 9;
+		int square = n*n;
+
+	}
+
+}

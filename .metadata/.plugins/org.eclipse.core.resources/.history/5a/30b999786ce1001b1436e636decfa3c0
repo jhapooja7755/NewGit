@@ -1,0 +1,19 @@
+package pooja;
+
+public class PlusOne {
+
+	public static void main(String[] args) {
+		int arr[] = {9,9,9};
+		int x;
+		int i;
+		for(i=0;i<arr.length;i++)
+		{
+			System.out.print(arr[i]);
+		
+		}
+		
+		
+
+	}
+
+}

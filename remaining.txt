@@ -1,0 +1,5 @@
+ebccdefgheff
+
+binary sum
+fibonacci even sum
+singleton class

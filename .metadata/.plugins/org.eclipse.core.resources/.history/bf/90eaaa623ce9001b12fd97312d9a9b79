@@ -1,0 +1,13 @@
+package pooja;
+
+public class Pangram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "abcdefghijk lmnopq rstuvwxyz";
+		str.replaceAll("","").toLowerCase();
+		System.out.println(str);
+
+	}
+
+}

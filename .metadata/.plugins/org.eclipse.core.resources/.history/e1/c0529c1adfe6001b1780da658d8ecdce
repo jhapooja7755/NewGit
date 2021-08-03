@@ -1,0 +1,17 @@
+package pooja;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class TestNg {
+
+	@Test
+	public void show() {
+		int a=5;
+		int b=6;
+		Assert.assertEquals(a, b,"not passed");
+		
+		
+	}
+	
+}
